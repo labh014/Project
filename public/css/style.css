@@ -1,0 +1,145 @@
+body {
+    margin-left: 5px !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-optical-sizing: auto;
+    
+    /* background: linear-gradient(to right, #ffb86bc0, #56cbf2bd);  */
+        /* Or you can use a single color background */
+      
+
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    flex-direction: column;
+    min-height: 100vh; */
+}
+
+
+.box {
+    margin-top: 1rem !important;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.navbar {
+    height: 4rem;
+    margin: auto;
+    /* background-color: #F7EEDD;
+     */
+     background-color: white;
+    /* background: linear-gradient(to right, #ff6b6b, #56ccf2); */
+    /* background: linear-gradient(to right, #ffffcc, #eeff009b); */
+
+}
+.navbar-collapse{
+    background-color: white;
+    width: auto;
+}
+/* .navbar-collapse .nav-link:hover{
+    background-color: aliceblue;
+} */
+.fa-compass {
+    color:  rgba(255, 51, 0, 0.893);
+    font-size: 2rem;
+}
+
+
+.nav-link {
+    color: black !important;
+}
+
+.info-links a {
+    text-decoration: none;
+    color: #222222;
+    margin-right: 1rem;
+}
+
+.info-links a:hover {
+    text-decoration: underline;
+}
+
+.info-links, .info-socialHandles, .info-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+.info-socialHandles i {
+    font-size: 1.3rem;
+}
+
+.info-socialHandles i {
+    margin-right: 1rem;
+}
+.foot {
+    margin-top: 1rem;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.081);
+    height: 7rem;
+    text-align: center;
+}
+
+
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+    /* height: auto !important;
+    width: 220px !important; */
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+}
+
+.card-body {
+    padding: 0 !important;
+    /* display: flex; 
+    justify-content: center; 
+    align-items: center;  */
+}
+.card-img-top {
+    border-radius: 1em !important;
+}
+
+.card-title {
+    font-size: 400 !important;
+}
+
+.list-link {
+    text-decoration: none;
+}
+
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.1;
+    background-color: black;
+}
+/* new Page */
+.add-btn{
+    background-color: rgba(255, 51, 0, 0.893) !important;
+    border: none !important;
+}
+
+/* edit Page */
+.edit-btn{
+    background-color: rgba(255, 51, 0, 0.893) !important;
+    border: none !important;
+}
+/* show page */
+.show-img {
+    height: 45vh;
+}
+
+.btns {
+    display: flex;
+    
+}
+
+/* .card  {
+    background: linear-gradient(to right, #ff6b6b, #56ccf2); */
+/* } */
